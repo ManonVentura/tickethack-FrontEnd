@@ -13,43 +13,136 @@ body {
   }
 
   #header {
+
+    padding-right: 20px;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 13;
+    background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #1161F5;
+    
     
   }
-  #footer {
-    grid-row-start: 12;
-    grid-row-end: 13;
-    grid-column-start: 1;
-    grid-column-end: 13;
+  .head {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background-color: green;
-    
   }
+  .button {
+    display: flex;
+  }
+ 
 
   #content {
     grid-row-start: 3;
     grid-row-end: 12;
     grid-column-start: 1;
     grid-column-end: 13;
-   
+  }
+
+  /* Content */
+
+  #block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
   }
 
+  .searchbloc {
+    height: 300px;
+    width: 280px;
+    margin-left: 290px;
+    margin-top: 20px; 
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
 
-  /* images */
+  #resultbloc {
+    height: 300px;
+    width: 280px;
+    margin-top: 0px;
+    margin-left: 400px; 
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+
+  /* Images */
 
   #backimg {
 
     height: 100vh;
     width: 100vw;
+    position: absolute;
     
   }
+  .trainimg {
+    height: 120px;
+    margin-bottom: 80px; 
+  }
+
+
+  /* Bouttons */
+
+  #btn-home {
+    padding-left: 20px;
+    border: none;
+    font-weight: bold;
+    color: rgb(30, 194, 30);
+    background-color: white;
+    width: 4vw;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  #btn-cart {
+    padding: 10px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #btn-booking {
+    padding-right: 20px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .title {
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+  }
+  .init {
+    color: white;
+    text-align: center;
+    vertical-align: top;
+  }
+
+/* Texts */
+
+.book {
+    font-weight: bold;
+    margin-top: 150px;
+    margin-right: 100px;
+}
