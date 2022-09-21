@@ -98,7 +98,7 @@ span {
   padding: 10px;
   padding-top: 10px;
   border-radius: 10px;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 
 #results-logo {
@@ -195,4 +195,12 @@ span {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, .5);
   box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+#results-notfound {
+  width: 120px;
+}
+#teste {
+
+  margin-top: 50px;
 }
